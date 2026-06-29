@@ -16,4 +16,4 @@ int rb_is_empty(RingBuffer* rb);
 int rb_push(RingBuffer* rb, int value);
 int rb_pop(RingBuffer* rb, int* out_value);
 
-#endif // RINGBUFFER_H#pragma once
+#endif
