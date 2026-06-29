@@ -100,6 +100,9 @@ int main() {
     return 0;
 }
 ```
+**Expected Output:**
+
+```text
     UNIT TEST 
 1. Dang chay Unit Test cho Function Pointer...
    -> PASS: Function Pointer hoat dong chinh xac!
@@ -114,3 +117,4 @@ int main() {
    -> PASS: Memory Pool hoat dong chinh xac!
 
 => TAT CA TEST DEU PASS!
+```
