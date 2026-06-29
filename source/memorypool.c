@@ -6,8 +6,6 @@ typedef struct {
     uint8_t is_used[POOL_SIZE];
 } MemoryPool;
 
-// Đưa biến my_pool vào file .c để giấu kín (encapsulation)
-// Các file khác chỉ có thể tương tác với nó thông qua các hàm init, alloc, free
 MemoryPool my_pool;
 
 void pool_init() {
