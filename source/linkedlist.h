@@ -10,4 +10,4 @@ Node* create_node(int value);
 void insert_tail(Node** head, int value);
 int search_node(Node* head, int target);
 
-#endif // LINKEDLIST_H#pragma once
+#endif 
